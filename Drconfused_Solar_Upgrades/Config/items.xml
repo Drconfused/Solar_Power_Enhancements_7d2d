@@ -1,0 +1,33 @@
+<Drs_SolarUpgrades>
+<append xpath="/items">
+
+	<item name="solarCell_SuperDurable">
+		<property name="Extends" value="solarCell"/>
+		<property name="CustomIcon" value="solarCell"/>
+		<property name="CustomIconTint" value="ffb0b0"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="Mglass"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Weight" value="10"/>
+		<property name="EconomicValue" value="6000"/>
+		<property name="Group" value="Resources"/>
+		<property name="SellableToTrader" value="false"/>
+		<property class="Attributes">
+			<property name="DegradationMax" value="5000,10000"/>
+		</property>
+		<effect_group>
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+		</effect_group>
+	</item>
+
+	<item name="purifiedSilicone">
+		<property name="Extends" value="resourcePotassiumNitratePowder"/>
+		<property name="CustomIcon" value="DrsSilicon"/>
+		<property name="EconomicValue" value="50"/>
+	</item>	
+
+</append>
+</Drs_SolarUpgrades>

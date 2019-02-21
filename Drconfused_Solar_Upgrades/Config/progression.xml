@@ -1,0 +1,7 @@
+<Drs_SolarUpgrades>
+	
+<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='5']/@tags">,solarCell,solarCell_SuperDurable,purifiedSilicone</append>
+	
+<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='5']/@tags">,solarBank,solarbank_Enhanced</append>	
+	
+</Drs_SolarUpgrades>

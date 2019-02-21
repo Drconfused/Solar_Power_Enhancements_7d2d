@@ -1,0 +1,44 @@
+<Drs_SolarUpgrades>
+<append xpath="/recipes">
+	
+	<recipe name="solarbank" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="resourceScrapPolymers" count="40"/>
+		<ingredient name="resourceForgedSteel" count="80"/>
+		<ingredient name="resourceElectricParts" count="20"/>
+		<ingredient name="resourceGlue" count="4"/>
+		<ingredient name="resourceInsulator" count="4"/>
+	</recipe>
+	
+	
+	<recipe name="solarbank_Enhanced" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="resourceScrapPolymers" count="80"/>
+		<ingredient name="resourceForgedSteel" count="120"/>
+		<ingredient name="resourceElectricParts" count="40"/>
+		<ingredient name="resourceGlue" count="10"/>
+		<ingredient name="resourceInsulator" count="10"/>
+	</recipe>
+	
+	<recipe name="solarCell" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="purifiedSilicone" count="20"/>
+		<ingredient name="resourceForgedSteel" count="25"/>
+		<ingredient name="resourceElectricParts" count="10"/>
+		<ingredient name="resourceGlue" count="1"/>
+		<ingredient name="glassBusinessPlate" count="1"/>
+	</recipe>
+	
+	<recipe name="solarCell_SuperDurable" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="purifiedSilicone" count="25"/>
+		<ingredient name="resourceForgedSteel" count="35"/>
+		<ingredient name="resourceElectricParts" count="15"/>
+		<ingredient name="resourceGlue" count="5"/>
+		<ingredient name="glassBusinessPlate" count="2"/>
+	</recipe>
+	
+	<recipe name="purifiedSilicone" count="1" craft_area="chemistryStation" tags="learnable">
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="5"/>
+	</recipe>
+
+</append>
+</Drs_SolarUpgrades>
