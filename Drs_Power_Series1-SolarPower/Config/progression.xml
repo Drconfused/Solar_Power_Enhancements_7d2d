@@ -1,0 +1,26 @@
+<Drs_Power_Series1-SolarPower>	
+<!-- SCIENCE PROGRESSION -->
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+	<!-- SCIENCE 3 -->		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
+			tags="solarCell_mini,purifiedSilicone"/>
+	<!-- SCIENCE 4 -->		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
+			tags="solarCell"/>
+	<!-- SCIENCE 5 -->		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
+			tags="solarCell_SuperDurable"/>				
+	</append>	
+<!-- ENGINEERING PROGRESSION -->
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+	<!-- ENGINEERING 3 -->
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
+			tags="solarbank_mini"/>
+	<!-- ENGINEERING 4 -->
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
+			tags="solarbank"/>
+	<!-- ENGINEERING 5 -->		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
+			tags="solarbank_Enhanced"/>	
+	</append>
+</Drs_Power_Series1-SolarPower>

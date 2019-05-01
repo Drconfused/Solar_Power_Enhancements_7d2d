@@ -1,0 +1,12 @@
+--Drconfused_Power_Series1_Solar
+
+solarbank_mini,blocks,Block,New,Mini Solar Bank,,,,,
+solarbank_mini,blocksDesc,Block,New,"1x1 solar bank that requires mini solar cells to operate.",,,,,
+solarbank_Enhanced,blocks,Block,New,Enhanced Solar Bank,,,,,
+solarbank_EnhancedDesc,blocks,Block,New,"Increases the output of power per solar cell.\nRequires Enhanced Solar Cells to operate.",,,,,
+solarCell_mini,items,Items,New,Mini Solar Cell,,,,,
+solarCell_miniDesc,items,Items,New,"Only equippable in the Mini Solar Bank.",,,,,
+solarCell_SuperDurable,items,Items,New,Enhanced Solar Cell,,,,,
+solarCell_SuperDurableDesc,items,Items,New,"Only equippable in the Enhanced Battery Bank.",,,,,
+purifiedSilicone,items,Items,New,Purified Silicone,,,,,
+purifiedSiliconeDesc,items,Items,New,"Taking polymers to a new level, purifed silicone comes in handy for advanced technologies.",,,,,

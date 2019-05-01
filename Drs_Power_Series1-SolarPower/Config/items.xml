@@ -1,0 +1,57 @@
+<Drs_Power_Series1-SolarPower>
+<append xpath="/items">
+<!-- * SOLAR CELLS	-->
+	<!-- mini solarCell -->
+		<item name="solarCell_mini">
+			<property name="CustomIcon" value="Drs_solarcell_mini"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="3"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Group" value="Resources"/>
+			<property name="SellableToTrader" value="true"/>
+			<property class="Attributes">
+				<property name="DegradationMax" value="300,1200"/>
+			</property>
+			<effect_group>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="300,1200" tier="1,6"/>
+			</effect_group>
+		</item>
+	<!-- super durable solarCell -->
+		<item name="solarCell_SuperDurable">
+			<property name="CustomIcon" value="solarCell"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="15"/>
+			<property name="EconomicValue" value="4000"/>
+			<property name="Group" value="Resources"/>
+			<property name="SellableToTrader" value="true"/>
+			<property class="Attributes">
+				<property name="DegradationMax" value="5000,10000"/>
+			</property>
+			<effect_group>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+			</effect_group>
+		</item>
+<!-- purified silicone -->
+	<item name="purifiedSilicone">
+		<property name="CustomIcon" value="DrsSilicon"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="MresourceScrapPolymers"/>
+		<property name="Stacknumber" value="1000"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="Group" value="Resources"/>
+		<property name="CraftingIngredientTime" value="2"/>
+	</item>
+</append>
+</Drs_Power_Series1-SolarPower>
